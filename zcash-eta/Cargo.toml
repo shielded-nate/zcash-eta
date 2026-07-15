@@ -1,0 +1,11 @@
+[package]
+name = "zcash-eta"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+color-eyre.workspace = true
+zcash-eta-headless.workspace = true
+zcash-eta-offline.workspace = true
+zcash-eta-web-server.workspace = true

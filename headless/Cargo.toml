@@ -1,0 +1,14 @@
+[package]
+name = "zcash-eta-headless"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+clap.workspace = true
+color-eyre.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+zcash-eta-offline.workspace = true
